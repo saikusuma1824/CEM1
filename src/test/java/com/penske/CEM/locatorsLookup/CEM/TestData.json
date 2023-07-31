@@ -1,0 +1,60 @@
+{
+  "Testdata": {
+    "PillboxTitleJSONArray": [
+      "Status :",
+      "Use :",
+      "Category :",
+      "DataProvider :",
+      "Customer :",
+      "State :",
+      "License Plate :",
+      "Make :",
+      "Model :",
+      "Year :"
+    ],
+    "PillboxValuesJSONArray" : [
+      "Active",
+      "LEASE",
+      "Trucks",
+      "Samsara",
+      "686453",
+      "AB",
+      "00013H2",
+      "ANU",
+      "EXTENDBL",
+      "2020"
+    ],
+    "DeviceProfilePageTilesContent": [
+      "Most Recent Telemetry",
+      "VIN",
+      "Unit #",
+      "Unit Corp Code",
+      "Device Serial #",
+      "Device ID",
+      "Manufacturer Name",
+      "DP Code",
+      "Model",
+      "Expiration Date",
+      "Effective Date",
+      "Firmware Version",
+      "Software Provider",
+      "Software Product",
+      "Software Version",
+      "Create Date",
+      "Create User ID",
+      "Update Date",
+      "Update User ID",
+      "Activation Date",
+      "Subscription Date",
+      "Customer Name",
+      "Customer #",
+      "207787"
+    ],
+    "DeviceHistoryTilesContents": [
+      "Unit #",
+      "Initial Unit Telemetry",
+      "Corp Code",
+      ""
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "PasswordServices": {
+    "SSOID_Input_Field": "//input[@id='username']",
+    "Password_Field": "//input[@id='password']",
+    "Login_Button": "//input[@name='submit']"
+  },
+  "Common_Locator": {
+    "Navigation_Panel": {
+      "Dataprovider_Tab_Link":"//button[@id='dataproviders']",
+      "Customer_Tab_Link": "//button[@id='customers']",
+      "Units_Tab_Link": "//button[@id='units']",
+      "Device_Tab_Link":"//button[@id='devices']",
+      "Customer_Onboared_This_Month": "//a//li[contains(text(),'Field Employee Details')]",
+      "Profile_BackBtn": "//div[@class='back-btn-icon']/a/img",
+      "ToolTip": "//div[@class='tooltip-inner']/div",
+      "Pagination_Go_Button": "//button[contains(text(),'Go')]",
+      "Pagination_Next_Button": "//span[contains(text(),'Next')]",
+      "Pagination_Prev_Button": "//span[contains(text(),'Prev')]",
+      "Dashboard_Count_Results": "//span[@class='show-result']",
+      "Go_Input_Text": "//input[@id='newPage']",
+      "Go_Button": "//button[@class='submit-button']",
+      "Input_Box_Colour_Text": "//div[@class='go-to-page']//form/input[@id='newPage']"
+    },
+    "Coreconnect_Spinner": "//div[@id='ormAppSpinner' and @class='spinner-div p-d-flex']",
+    "Application_URL": "https://core-connect.acp.ptlapps.com/"
+  },
+  "Filter": {
+    "Filter": "//a[contains(text(),'Filters')]",
+    "Filter_Headers": "//div[@class='flt-secName']/span[1]",
+    "Filters_PlaceHolder_Text": "//*[contains(text(),'Select')]",
+    "ClearBtn": "//a[contains(text(),'Clear')]",
+    "CancelBtn": "//a[contains(text(),'Cancel')]",
+    "ApplyBtn": "//a[contains(text(),'Apply')]",
+    "ClickStatusFilter": "//mat-panel-title[contains(text(),'Choose a status')]",
+    "ClickUseFilter": "//mat-panel-title[contains(text(),'Choose a use')]",
+    "ClickCategoryFilter": "//mat-panel-title[contains(text(),'Choose a category')]",
+    "ClickDataProviderFilter": "//mat-panel-title[contains(text(),'Choose a data provider')]",
+    "ClickCustomerFilter": "//mat-panel-title[contains(text(),'Choose a customer')]",
+    "ClickVehicleRegStateFilter": "//mat-panel-title[contains(text(),'Choose a state')]",
+    "ClickVehicleReg_LicensePlateFilter": "//mat-panel-title[contains(text(),'Choose a license plate')]",
+    "ClickMakeFilter": "//mat-panel-title[contains(text(),'Choose a make')]",
+    "ClickModelFilter": "//mat-panel-title[contains(text(),'Choose a model')]",
+    "ClickYearFilter": "//mat-panel-title[contains(text(),'Choose a timeframe')]",
+    "Customer_Filter_Search": "//input[@id='mat-input-143']",
+    "Model_Error_Msg": "//p[contains(text(),'You must select a make before selecting models.')]",
+    "Year_From": "//input[@id='fromDt']",
+    "Year_To": "//input[@id='toDt']",
+    "Year_OK_Btn": "//a[text()='OK']",
+    "Pillbox_Headers": "//div[@id='pills-row']/div/div/span[1]",
+    "Pillbox_ShowMore_Btn": "//*[@id='pills-row']/div[2]/button",
+    "Pillbox_Pipe_Bar": "//span[text()='|']",
+    "Pillbox_Selected_values": "//div[@id='pills-row']/div/div/div/span",
+    "Pillbox_Close_Btn": "//div[@id='pills-row']/div/div/div/span/img",
+    "Customer_Filter_SearchBox": "/html/body/div[1]/div/div/main/div/div/app-root/app-default/app-dashboard/div/div[2]/div[1]/div[2]/app-pcc-filter/div[2]/div/div/div/mat-accordion/div[5]/mat-expansion-panel/div/div/mat-panel-description/mat-form-field/div/div[1]/div/div[1]/input",
+    "State_Filter_SearchBox": "/html/body/div[1]/div/div/main/div/div/app-root/app-default/app-dashboard/div/div[2]/div[1]/div[2]/app-pcc-filter/div[2]/div/div/div/mat-accordion/div[6]/mat-expansion-panel/div/div/mat-panel-description/mat-form-field/div/div[1]/div/input",
+    "License_Plate_Filter_SearchBox": "/html/body/div[1]/div/div/main/div/div/app-root/app-default/app-dashboard/div/div[2]/div[1]/div[2]/app-pcc-filter/div[2]/div/div/div/mat-accordion/div[7]/mat-expansion-panel/div/div/mat-panel-description/mat-form-field/div/div[1]/div/div[1]/input",
+    "Make_Filter_SearchBox": "/html/body/div[1]/div/div/main/div/div/app-root/app-default/app-dashboard/div/div[2]/div[1]/div[2]/app-pcc-filter/div[2]/div/div/div/mat-accordion/div[8]/mat-expansion-panel/div/div/mat-panel-description/mat-form-field/div/div[1]/div/input",
+    "Model_Filter_SearchBox": "/html/body/div[1]/div/div/main/div/div/app-root/app-default/app-dashboard/div/div[2]/div[1]/div[2]/app-pcc-filter/div[2]/div/div/div/mat-accordion/div[9]/mat-expansion-panel/div/div/mat-panel-description/mat-form-field/div/div[1]/div/input"
+  },
+  "Pillbox": {
+    "Searched_Text":"//span[contains(text(),'Search:')]/following-sibling::span"
+  }
+}
